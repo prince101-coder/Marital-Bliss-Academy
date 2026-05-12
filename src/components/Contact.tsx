@@ -17,7 +17,7 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Phone",
-    value: "(555) 123-4567",
+    value: "+234 806 385 6287",
   },
   {
     icon: Mail,
@@ -27,7 +27,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Location",
-    value: "123 Harmony Lane, Suite 200",
+    value: "Assemblies of God Afor Nkpor Church",
   },
   {
     icon: Clock,
@@ -119,7 +119,7 @@ export default function Contact() {
                     <Input
                       id="phone"
                       type="tel"
-                      placeholder="(555) 123-4567"
+                      placeholder="+234 806 385 6287"
                       value={formData.phone}
                       onChange={(e) =>
                         setFormData({ ...formData, phone: e.target.value })
@@ -189,7 +189,7 @@ export default function Contact() {
                   needs and match you with the right counselor.
                 </p>
                 <Button className="w-full bg-white text-amber-600 hover:bg-amber-50 px-4 py-4 sm:py-6 rounded-full text-sm sm:text-base font-medium whitespace-normal text-center leading-snug">
-                  Call Now: (555) 123-4567
+                  Call Now: +234 806 385 6287
                 </Button>
               </CardContent>
             </Card>
